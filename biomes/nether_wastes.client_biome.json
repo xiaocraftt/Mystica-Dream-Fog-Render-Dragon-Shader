@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "nether_wastes"
+    },
+    "components": {
+      "minecraft:sky_color": {
+        "sky_color": "#4A1510"
+      },
+      "minecraft:fog_appearance": {
+        "fog_identifier": "xc:nether_hell_fog"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#3A0F0A"
+      }
+    }
+  }
+}
+

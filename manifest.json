@@ -1,0 +1,31 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Mystica: Dream Fog Shader",
+    "description": "Mystica - Dream Fog Shader By XiaoCraft.",
+    "uuid": "4f3eb63f-b47d-447a-86c8-1e8af26b429b",
+    "version": [2, 2, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "108c2df9-052b-460b-8610-624c1b4590a6",
+      "version": [2, 2, 0]
+    }
+  ],
+  "subpacks": [
+    {
+      "folder_name": "1",
+      "name": "Fancy Sky",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "2",
+      "name": "Vanilla Sky",
+      "memory_tier": 2
+    }
+  ]
+}
+
+
