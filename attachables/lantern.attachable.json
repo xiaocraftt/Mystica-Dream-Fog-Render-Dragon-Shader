@@ -1,0 +1,40 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "minecraft:lantern",
+
+      "materials": {
+        "default": "phantom"
+      },
+
+      "textures": {
+        "default": "textures/items/lanterns/lantern"
+      },
+
+      "geometry": {
+        "default": "geometry.lantern"
+      },
+
+      "scripts": {
+        "animate": [
+          {
+            "animation.rp.bt.lantern_third_person": "!c.is_first_person"
+          },
+          {
+            "animation.rp.bt.lantern_first_person": "c.is_first_person"
+          }
+        ]
+      },
+
+      "animations": {
+        "animation.rp.bt.lantern_third_person": "animation.rp.bt.lantern_third_person",
+        "animation.rp.bt.lantern_first_person": "animation.rp.bt.lantern_first_person"
+      },
+
+      "render_controllers": [
+        "controller.render.item_default"
+      ]
+    }
+  }
+}

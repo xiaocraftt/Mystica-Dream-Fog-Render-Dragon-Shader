@@ -1,0 +1,116 @@
+{
+  "resource_pack_name": "Mystica Dream Shader",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+
+    "cherry_leaves_0": {
+      "textures": "textures/blocks/cherry_leaves"
+    },
+
+    "cherry_leaves_1": {
+      "textures": "textures/blocks/cherry_leaves_1"
+    },
+
+    "grass_path_top": {
+      "textures": [
+        {
+          "variations": [
+            { "path": "textures/blocks/dirt_path_top" },
+            { "path": "textures/blocks/dirt_path_top1" },
+            { "path": "textures/blocks/dirt_path_top2" },
+            { "path": "textures/blocks/dirt_path_top3" },
+            { "path": "textures/blocks/dirt_path_top4" }
+          ]
+        }
+      ]
+    },
+
+    "tallgrass": {
+      "textures": [
+        {
+          "variations": [
+            { "path": "textures/blocks/short_grass" },
+            { "path": "textures/blocks/short_grass1" },
+            { "path": "textures/blocks/short_grass2" },
+            { "path": "textures/blocks/short_grass3" },
+            { "path": "textures/blocks/short_grass4" },
+            { "path": "textures/blocks/short_grass5" },
+            { "path": "textures/blocks/short_grass6" },
+            { "path": "textures/blocks/short_grass7" },
+            { "path": "textures/blocks/short_grass8" },
+            { "path": "textures/blocks/short_grass9" },
+            { "path": "textures/blocks/short_grass10" },
+            { "path": "textures/blocks/short_grass11" },
+            { "path": "textures/blocks/short_grass12" },
+            { "path": "textures/blocks/short_grass13" },
+            { "path": "textures/blocks/short_grass14" },
+            { "path": "textures/blocks/short_grass15" }
+          ]
+        }
+      ]
+    },
+
+    "tall_grass_bottom": {
+      "textures": [
+        {
+          "variations": [
+            { "path": "textures/blocks/tall_grass_bottom" },
+            { "path": "textures/blocks/tall_grass_bottom1" },
+            { "path": "textures/blocks/tall_grass_bottom2" },
+            { "path": "textures/blocks/tall_grass_bottom3" },
+            { "path": "textures/blocks/tall_grass_bottom4" },
+            { "path": "textures/blocks/tall_grass_bottom5" }
+          ]
+        }
+      ]
+    },
+
+    "tall_grass_top": {
+      "textures": [
+        {
+          "variations": [
+            { "path": "textures/blocks/tall_grass_top" },
+            { "path": "textures/blocks/tall_grass_top1" },
+            { "path": "textures/blocks/tall_grass_top2" },
+            { "path": "textures/blocks/tall_grass_top3" },
+            { "path": "textures/blocks/tall_grass_top4" },
+            { "path": "textures/blocks/tall_grass_top5" }
+          ]
+        }
+      ]
+    },
+
+    "pink_petals": {
+      "textures": [
+        {
+          "variations": [
+            { "path": "textures/blocks/pink_petals" },
+            { "path": "textures/blocks/pink_petals1" },
+            { "path": "textures/blocks/pink_petals2" },
+            { "path": "textures/blocks/pink_petals3" },
+            { "path": "textures/blocks/pink_petals4" }
+          ]
+        }
+      ]
+    },
+
+    "coarse_dirt": {
+      "textures": [
+        {
+          "variations": [
+            { "path": "textures/blocks/coarse_dirt" },
+            { "path": "textures/blocks/coarse_dirt1" },
+            { "path": "textures/blocks/coarse_dirt2" },
+            { "path": "textures/blocks/coarse_dirt3" },
+            { "path": "textures/blocks/coarse_dirt4" },
+            { "path": "textures/blocks/coarse_dirt5" },
+            { "path": "textures/blocks/coarse_dirt6" }
+          ]
+        }
+      ]
+    }
+
+  }
+}

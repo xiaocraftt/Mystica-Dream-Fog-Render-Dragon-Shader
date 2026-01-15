@@ -1,0 +1,13 @@
+🧾 Mystica Shader – Changelog v2.3.0
+
+Added cinematic player animations for smoother movement and immersive gameplay
+
+Added custom first-person animations inspired by Mystica’s fantasy theme
+
+Added dreamy firefly particles with soft glow and smooth motion
+
+Added new atmospheric textures for enhanced visuals
+
+Added custom UI & GUI styling to match Mystica’s aesthetic
+
+Added accessibility load messages to indicate shader activation

@@ -1,0 +1,150 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+
+    "animation.player.first_person.attack_rotation": {
+      "loop": true,
+      "animation_length": 0.5,
+      "anim_time_update": "(variable.attack_time * 0.5)",
+      "bones": {
+        "rightArm": {
+          "rotation": {
+            "0.0":  [0, 0, 0],
+            "0.06": [-20, 10, 6],
+            "0.14": [-30, 18, 10],
+            "0.22": [-34, 22, 12],
+            "0.32": [-28, 18, 9],
+            "0.42": [-16, 10, 4],
+            "0.5":  [0, 0, 0]
+          },
+          "position": {
+            "0.0":  [0, 0, 0],
+            "0.06": [-0.6, 2.4, 0.2],
+            "0.14": [-1.2, 3.8, 0.6],
+            "0.22": [-1.6, 4.4, 1.0],
+            "0.32": [-1.4, 3.0, 0.8],
+            "0.42": [-0.8, 1.4, 0.4],
+            "0.5":  [0, 0, 0]
+          }
+        }
+      }
+    },
+
+    "animation.player.first_person.block_break": {
+      "loop": true,
+      "bones": {
+        "rightarm": {
+          "rotation": [
+            "-12 + math.sin(query.life_time * 10) * 6",
+            "math.sin(query.life_time * 6) * 2",
+            "math.sin(query.life_time * 10) * 4"
+          ],
+          "position": [
+            "math.sin(query.life_time * 10) * 0.6",
+            "-1.2 + math.sin(query.life_time * 10) * 0.4",
+            "math.sin(query.life_time * 10) * 0.6"
+          ]
+        }
+      }
+    },
+
+    "animation.player.first_person.empty_hand": {
+      "loop": true,
+      "bones": {
+        "rightarm": {
+          "position": [
+            11.5,
+            "-7.4 + math.sin(query.life_time * 6) * 0.35",
+            9.5
+          ],
+          "rotation": [
+            88.0,
+            -28.0,
+            96.0
+          ]
+        }
+      }
+    },
+
+    "animation.player.first_person.crossbow_equipped": {
+      "loop": true,
+      "override_previous_animation": true,
+      "bones": {
+        "leftarm": {
+          "position": [
+            "0.0 - variable.item_use_normalized * 3.0",
+            "-2.2 + variable.short_arm_offset_left",
+            "7.2 - (1 - variable.item_use_normalized)"
+          ],
+          "rotation": [145.0, -72.5, 80.0],
+          "scale": [0.5, 0.5, 0.5]
+        }
+      }
+    },
+
+    "animation.player.first_person.map_hold": {
+      "loop": true,
+      "bones": {
+        "leftarm": {
+          "position": [-16.5, -9.0, 9.5],
+          "rotation": [35.0, -20.0, -145.0],
+          "scale": [1.15, 1.15, 1.15]
+        },
+        "rightarm": {
+          "position": [16.5, -9.0, 9.5],
+          "rotation": [35.0, 20.0, 145.0],
+          "scale": [1.15, 1.15, 1.15]
+        }
+      }
+    },
+
+    "animation.player.first_person.map_hold_attack": {
+      "loop": true,
+      "bones": {
+        "rightarm": {
+          "position": [
+            "math.sin(variable.attack_time * 120.0) * 2.5",
+            "-2.5 - variable.attack_time * 2.0",
+            "math.sin(variable.attack_time * 120.0) * 4.0"
+          ],
+          "rotation": [
+            "variable.map_angle * 70.0",
+            0.0,
+            "variable.attack_time * 22.5"
+          ]
+        }
+      }
+    },
+
+    "animation.player.first_person.swap_item": {
+      "loop": true,
+      "bones": {
+        "leftarm": {
+          "position": [0, "-9.0 * (1.0 - variable.player_arm_height)", 0]
+        },
+        "rightarm": {
+          "position": [0, "-9.0 * (1.0 - variable.player_arm_height)", 0]
+        }
+      }
+    },
+
+    "animation.player.first_person.vr_attack_rotation": {
+      "loop": true,
+      "bones": {
+        "rightarm": {
+          "position": [
+            "4.0 * math.sin(variable.attack_time * 112.0)",
+            "(math.sin((1 - variable.attack_time) * 200.0) - 0.6) * 7.0",
+            "math.sin(variable.attack_time * 120.0) * 12.0"
+          ],
+          "rotation": [
+            "26.0 * math.sin(variable.attack_time * -180.0 - 40.0)",
+            0.0,
+            "18.0 * math.sin(variable.attack_time * 200.0 + 30.0)"
+          ]
+        }
+      }
+    }
+
+  }
+}
