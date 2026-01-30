@@ -1,17 +1,17 @@
 {
   "format_version": 2,
   "header": {
-    "name": "Mystica: Dream Fog Shader",
+    "name": "Mystica: Dream Fog Shader v2.3.1",
     "description": "Mystica - Dream Fog Shader By XiaoCraft.",
-    "uuid": "6ab28572-d36f-46c3-8584-7c1ab05e0db1",
-    "version": [2, 3, 0],
+    "uuid": "6fa6d59f-3242-4a67-88ec-3031d5bfb61a",
+    "version": [2, 3, 1],
     "min_engine_version": [1, 21, 0]
   },
   "modules": [
     {
       "type": "resources",
-      "uuid": "6fa7e97f-cbcf-4343-8691-d22f89d6d8d6",
-      "version": [2, 3, 0]
+      "uuid": "1dfc83e5-8298-4bee-92a5-85af8599c59e",
+      "version": [2, 3, 1]
     }
   ],
   "subpacks": [
